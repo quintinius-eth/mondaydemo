@@ -1,0 +1,39 @@
+# server configurations
+[server]
+    # server name
+    name =              ""
+    # server description (max 127 characters)
+    description =       ""
+    # max players
+    max_players =       64
+    # leave it blank for no password
+    password =          ""
+    # server IP. we recommend leaving it 0.0.0.0 for default
+    ip =                "0.0.0.0"
+    # server port (TCP and UDP)
+    port =              7777
+    # server tick rate in milliseconds (dangerous! server will tick at each [tick_rate] ms, affecting both server and client performance. 33 ms means 30 ticks per second and is the default and recommended value)
+    tick_rate =         33
+    # log Level. (1) normal - (2) debug - (3) verbose
+    log_level =         1
+
+# HELIX configurations
+[world]
+    # game-mode package to load (set the main game-mode package to load - you can load only one 'game-mode' package type at once)
+    game_mode =         ""
+    # loading-screen package to load (the loading screen will be displayed when players join your server)
+    loading_screen =    ""
+    # packages list (set the packages you want to load)
+    packages = [
+        "mondaydemo",
+    ]
+    # asset packs list (this will additionally load the asset packs you define here)
+    assets = [
+        "pco-markers",
+    ]
+    # default startup map
+    map =               "nova-cinema::HV_Cinema_Nova"
+    # banned HELIX account IDs
+    banned_ids = [
+        
+    ]

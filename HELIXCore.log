@@ -1,15 +1,3 @@
-# mondaydemo
-This is the state after the video https://youtu.be/SAEmJg9Lmrw 
-
-To get started:
-- Head to Helix Creators Discord, `#resources` and download `HELIXGameServer.exe`. Place it in the root folder of this project
-- Download `nova-cinema` from `https://hub.helixgame.com` and save it in `Assets/`, like shown in the video
-- Run `HELIXGameServer.exe` from Commandline
-- Connect via Helix-Client (Epic-Games store) to `127.0.0.1:7777`
-- This should spawn the server, provide a Console-Output like below
-
-```
-[2023-10-09 08:36:41] [debug]    Retrieving Public IP...
 [2023-10-09 08:36:41] [display]  HELIX (C) Copyright. All Rights Reserved.
 [2023-10-09 08:36:41] [display]  Starting Server at Port: 7777. Version: 0.29.8. Map: 'nova-cinema::HV_Cinema_Nova'.
 [2023-10-09 08:36:41] [display]  Fetching Vault Data...
@@ -21,6 +9,13 @@ To get started:
 [2023-10-09 08:36:41] [display]  Loading Package 'mondaydemo'...
 [2023-10-09 08:36:41] [script]   prop is supposed to be spawned!
 [2023-10-09 08:36:41] [display]  Package 'mondaydemo' loaded.
-```
-
-![Player Connected to server](player_connected.jpg)
+[2023-10-09 08:37:34] [display]  Player '127.0.0.1' is connecting ('quintinius' - 'be752ce5-0036-4219-803a-ad4a92571287' - client ver. '0.29.11').
+[2023-10-09 08:37:35] WARNING  Server Tick extremely high! Verify the server performance! Server got stuck for 347ms.
+[2023-10-09 08:37:38] [display]  Player 'quintinius' (127.0.0.1 - be752ce5-0036-4219-803a-ad4a92571287) has connected!
+[2023-10-09 08:39:39] [display]  Closing the server with love and peace...
+[2023-10-09 08:39:39] [display]  Package 'mondaydemo' unloaded.
+[2023-10-09 08:39:39] [warning]  Closing the Server with anger and hate!
+[2023-10-09 08:39:39] [error]    Failed to close HTTPServer! Are you smashing CTRL + C???
+[2023-10-09 08:39:39] [display]  Closing connections...
+[2023-10-09 08:39:39] [fatal]    Unhandled Server Crash! This is not intended to happen, please contact the support!
+Error: no such process: no such process

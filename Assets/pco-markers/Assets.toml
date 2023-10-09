@@ -1,0 +1,72 @@
+# vault configurations
+[meta]
+    # friendly name
+    title =                 "davidasset"
+    # contributors
+    author =                "david"
+    # version
+    version =               "0.1.0"
+
+# asset pack configurations
+[asset_pack]
+    # asset packs requirements
+    assets_requirements = [
+                            
+    ]
+
+# unreal engine configurations
+[unreal]
+    # unreal engine folder - the exact name of the root folder inside Content/ or Plugin/ used in Unreal
+    unreal_folder =         "DavidAsset"
+    # unreal engine version - unreal version this asset pack was compiled on
+    unreal_version =        "5.1.1"
+    # whether this asset pack was created as a plugin content
+    is_plugin_content =     true
+
+# assets files
+[assets]
+    # maps
+    [assets.maps]
+        # MyMap = "MyFolder/MyAwesomeMap"
+        # ...
+
+    # static meshes
+    [assets.static_meshes]
+        SM_MarkerArrow = "Markers/SM_MarkerArrow"
+        SM_MarkerCircle = "Markers/SM_MarkerCircle"
+        SM_MarkerCylinder = "Markers/SM_MarkerCylinder"
+
+    # skeletal meshes
+    [assets.skeletal_meshes]
+        # SK_Better_Man = "Characters/SK_BetterMan_03"
+        # ...
+
+    # sounds
+    [assets.sounds]
+        # A_Awesome_Music = "Sounds/A_Awesome_Music"
+        # ...
+
+    # animations
+    [assets.animations]
+        # A_Character_Jump = "Animations/A_Character_Jump"
+        # ...
+
+    # particles
+    [assets.particles]
+        # P_Big_Explosion = "Particles/P_Big_Explosion"
+        # ...
+
+    # materials
+    [assets.materials]
+        # M_Red_Textured = "Materials/M_Red_Textured"
+        # ...
+
+    # blueprints
+    [assets.blueprints]
+        # BP_AmazingStuff = "Blueprints/BP_AmazingStuff"
+        # ...
+
+    # other assets (for not yet categorized ones)
+    [assets.others]
+        # Some_Stuff = "Others/Some_Stuff"
+        # ...
